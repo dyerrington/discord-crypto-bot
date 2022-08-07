@@ -7,8 +7,6 @@ from lunarcrush import LunarCrush
 
 class MyClient(discord.Client):
 
-
-
     async def on_ready(self):
         print('Logged on as', self.user)
         self.printer.start()
@@ -101,4 +99,5 @@ class MyClient(discord.Client):
                     # print("Shit is getting ready...", type(channel), dir(channel))
 
 client = MyClient()
-client.run('OTU3NDA3Mjc3MTg5NTc4ODEz.Yj-VAg.WDPrx1utgHt_9DtXMXYVHs6AyO8')
+client.run('OTU3NDA3Mjc3MTg5NTc4ODEz.Yj-VAg.WDPrx1utgHt_9DtXMXYVHs6AyO8') # this token is not valid -- issue yourself one 
+from Discord
